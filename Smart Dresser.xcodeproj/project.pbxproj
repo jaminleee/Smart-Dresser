@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED50DC4E2BE572850015BF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC4D2BE572850015BF83 /* AppDelegate.swift */; };
+		ED50DC502BE572850015BF83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC4F2BE572850015BF83 /* SceneDelegate.swift */; };
+		ED50DC522BE572850015BF83 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC512BE572850015BF83 /* HomeViewController.swift */; };
+		ED50DC572BE572870015BF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED50DC562BE572870015BF83 /* Assets.xcassets */; };
+		ED50DC5A2BE572870015BF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED50DC582BE572870015BF83 /* LaunchScreen.storyboard */; };
+		ED50DC672BE584160015BF83 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED50DC662BE584160015BF83 /* SnapKit */; };
+		ED50DC6C2BE58B4B0015BF83 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC6B2BE58B4B0015BF83 /* UIColor+.swift */; };
+		ED50DC712BE58B560015BF83 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC6D2BE58B560015BF83 /* UIStackView+.swift */; };
+		ED50DC722BE58B560015BF83 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC6E2BE58B560015BF83 /* UIView+.swift */; };
+		ED50DC732BE58B560015BF83 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC6F2BE58B560015BF83 /* UITextField+.swift */; };
+		ED50DC742BE58B560015BF83 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC702BE58B560015BF83 /* UIFont+.swift */; };
+		ED50DC772BE58D3D0015BF83 /* SmartDresserLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC762BE58D3D0015BF83 /* SmartDresserLabel.swift */; };
+		ED50DC7F2BEB6C130015BF83 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED50DC7D2BEB6B660015BF83 /* Pretendard-Bold.otf */; };
+		ED50DC802BEB6C170015BF83 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED50DC7E2BEB6B660015BF83 /* Pretendard-Medium.otf */; };
+		ED50DC822BEB6C4D0015BF83 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC812BEB6C4D0015BF83 /* WeatherData.swift */; };
+		ED50DC842BEB6DEE0015BF83 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC832BEB6DEE0015BF83 /* WeatherManager.swift */; };
+		ED50DC862BEB6EBB0015BF83 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC852BEB6EBA0015BF83 /* WeatherModel.swift */; };
+		ED50DC882BEB781B0015BF83 /* DresserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50DC872BEB781B0015BF83 /* DresserViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED50DC4A2BE572850015BF83 /* Smart Dresser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Dresser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED50DC4D2BE572850015BF83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED50DC4F2BE572850015BF83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED50DC512BE572850015BF83 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ED50DC562BE572870015BF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED50DC592BE572870015BF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED50DC5B2BE572870015BF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED50DC6B2BE58B4B0015BF83 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		ED50DC6D2BE58B560015BF83 /* UIStackView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		ED50DC6E2BE58B560015BF83 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		ED50DC6F2BE58B560015BF83 /* UITextField+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		ED50DC702BE58B560015BF83 /* UIFont+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		ED50DC762BE58D3D0015BF83 /* SmartDresserLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDresserLabel.swift; sourceTree = "<group>"; };
+		ED50DC7D2BEB6B660015BF83 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		ED50DC7E2BEB6B660015BF83 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		ED50DC812BEB6C4D0015BF83 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		ED50DC832BEB6DEE0015BF83 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		ED50DC852BEB6EBA0015BF83 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		ED50DC872BEB781B0015BF83 /* DresserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DresserViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED50DC472BE572850015BF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50DC672BE584160015BF83 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED50DC412BE572850015BF83 = {
+			isa = PBXGroup;
+			children = (
+				ED50DC4C2BE572850015BF83 /* Smart Dresser */,
+				ED50DC4B2BE572850015BF83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED50DC4B2BE572850015BF83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC4A2BE572850015BF83 /* Smart Dresser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED50DC4C2BE572850015BF83 /* Smart Dresser */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC7B2BEB6B2B0015BF83 /* Resources */,
+				ED50DC642BE57AD70015BF83 /* Controller */,
+				ED50DC632BE57A680015BF83 /* View */,
+				ED50DC622BE57A4F0015BF83 /* Model */,
+				ED50DC612BE576FA0015BF83 /* Util */,
+				ED50DC4D2BE572850015BF83 /* AppDelegate.swift */,
+				ED50DC4F2BE572850015BF83 /* SceneDelegate.swift */,
+				ED50DC582BE572870015BF83 /* LaunchScreen.storyboard */,
+				ED50DC5B2BE572870015BF83 /* Info.plist */,
+			);
+			path = "Smart Dresser";
+			sourceTree = "<group>";
+		};
+		ED50DC612BE576FA0015BF83 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC752BE58CFF0015BF83 /* UIComponents */,
+				ED50DC6A2BE58AB90015BF83 /* Extensions */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		ED50DC622BE57A4F0015BF83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC812BEB6C4D0015BF83 /* WeatherData.swift */,
+				ED50DC832BEB6DEE0015BF83 /* WeatherManager.swift */,
+				ED50DC852BEB6EBA0015BF83 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED50DC632BE57A680015BF83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED50DC642BE57AD70015BF83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC512BE572850015BF83 /* HomeViewController.swift */,
+				ED50DC872BEB781B0015BF83 /* DresserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED50DC6A2BE58AB90015BF83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC702BE58B560015BF83 /* UIFont+.swift */,
+				ED50DC6D2BE58B560015BF83 /* UIStackView+.swift */,
+				ED50DC6F2BE58B560015BF83 /* UITextField+.swift */,
+				ED50DC6E2BE58B560015BF83 /* UIView+.swift */,
+				ED50DC6B2BE58B4B0015BF83 /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED50DC752BE58CFF0015BF83 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC762BE58D3D0015BF83 /* SmartDresserLabel.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		ED50DC7B2BEB6B2B0015BF83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC7C2BEB6B380015BF83 /* Fonts */,
+				ED50DC562BE572870015BF83 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED50DC7C2BEB6B380015BF83 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED50DC7D2BEB6B660015BF83 /* Pretendard-Bold.otf */,
+				ED50DC7E2BEB6B660015BF83 /* Pretendard-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED50DC492BE572850015BF83 /* Smart Dresser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED50DC5E2BE572870015BF83 /* Build configuration list for PBXNativeTarget "Smart Dresser" */;
+			buildPhases = (
+				ED50DC462BE572850015BF83 /* Sources */,
+				ED50DC472BE572850015BF83 /* Frameworks */,
+				ED50DC482BE572850015BF83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Dresser";
+			packageProductDependencies = (
+				ED50DC662BE584160015BF83 /* SnapKit */,
+			);
+			productName = "Smart Dresser";
+			productReference = ED50DC4A2BE572850015BF83 /* Smart Dresser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED50DC422BE572850015BF83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ED50DC492BE572850015BF83 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ED50DC452BE572850015BF83 /* Build configuration list for PBXProject "Smart Dresser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED50DC412BE572850015BF83;
+			packageReferences = (
+				ED50DC652BE584160015BF83 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = ED50DC4B2BE572850015BF83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED50DC492BE572850015BF83 /* Smart Dresser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED50DC482BE572850015BF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50DC5A2BE572870015BF83 /* LaunchScreen.storyboard in Resources */,
+				ED50DC7F2BEB6C130015BF83 /* Pretendard-Bold.otf in Resources */,
+				ED50DC572BE572870015BF83 /* Assets.xcassets in Resources */,
+				ED50DC802BEB6C170015BF83 /* Pretendard-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED50DC462BE572850015BF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50DC772BE58D3D0015BF83 /* SmartDresserLabel.swift in Sources */,
+				ED50DC742BE58B560015BF83 /* UIFont+.swift in Sources */,
+				ED50DC882BEB781B0015BF83 /* DresserViewController.swift in Sources */,
+				ED50DC722BE58B560015BF83 /* UIView+.swift in Sources */,
+				ED50DC712BE58B560015BF83 /* UIStackView+.swift in Sources */,
+				ED50DC732BE58B560015BF83 /* UITextField+.swift in Sources */,
+				ED50DC522BE572850015BF83 /* HomeViewController.swift in Sources */,
+				ED50DC842BEB6DEE0015BF83 /* WeatherManager.swift in Sources */,
+				ED50DC822BEB6C4D0015BF83 /* WeatherData.swift in Sources */,
+				ED50DC6C2BE58B4B0015BF83 /* UIColor+.swift in Sources */,
+				ED50DC4E2BE572850015BF83 /* AppDelegate.swift in Sources */,
+				ED50DC862BEB6EBB0015BF83 /* WeatherModel.swift in Sources */,
+				ED50DC502BE572850015BF83 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED50DC582BE572870015BF83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED50DC592BE572870015BF83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED50DC5C2BE572870015BF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED50DC5D2BE572870015BF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED50DC5F2BE572870015BF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJKNV9KXF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Dresser/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacksim.Smart-Dresser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED50DC602BE572870015BF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJKNV9KXF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Dresser/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacksim.Smart-Dresser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED50DC452BE572850015BF83 /* Build configuration list for PBXProject "Smart Dresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED50DC5C2BE572870015BF83 /* Debug */,
+				ED50DC5D2BE572870015BF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED50DC5E2BE572870015BF83 /* Build configuration list for PBXNativeTarget "Smart Dresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED50DC5F2BE572870015BF83 /* Debug */,
+				ED50DC602BE572870015BF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED50DC652BE584160015BF83 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED50DC662BE584160015BF83 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED50DC652BE584160015BF83 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ED50DC422BE572850015BF83 /* Project object */;
+}
